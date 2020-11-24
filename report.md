@@ -55,9 +55,9 @@ signs data set:
 
 Here is an exploratory visualization of the data set. First there are a few example of the images with its corresponding label and then an histogram with the frequency of the label appearing in the data set.
 
-![alt text][./examples/dataset_samples.jpg]
+![alt text](./examples/dataset_samples.jpg)
 
-![alt text][./examples/data_visualization.jpg]
+![alt text](./examples/data_visualization.jpg)
 
 ### Design and Test a Model Architecture
 
@@ -73,7 +73,7 @@ To add more data to the the data set, I used the random zoom method techniques b
 
 Here is an example of an original image and an augmented image:
 
-![alt text][./examples/zoom.jpg]
+![alt text](./examples/zoom.jpg)
 
 The difference between the original data set and the augmented data set is a random zoom reason why the sign looks closer in the generated image 
 
@@ -127,7 +127,7 @@ It is well known that CNN perform quite good with images since it can recognize 
 
 Here are five German traffic signs that I found on the web, I resized them to have a proper pixel count for the model:
 
-![alt text][./examples/internet_resized.jpg]
+![alt text](./examples/internet_resized.jpg)
 
 The first image might be difficult to classify because it is not perfectly aligned with the sign and there is something painted below the STOP letters. The second, third and fourth images have a good alignment and contrast with the background so I think it could be well classified. The last image has a bit of noise in front of the signal in the bottom of the sign, this might misleading the classifier. 
 
@@ -135,7 +135,7 @@ The first image might be difficult to classify because it is not perfectly align
 
 Here are the results of the prediction:
 
-![alt text]['./examples/internet_predictions.jpg']
+![alt text](./examples/internet_predictions.jpg)
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares poorly with the obtain accuracy, but the data sample is too low to give strong conclusion. It is interesting that the one which I though was the most difficult was correctly predicted which is the most noisy and not align stop signal. Also I was expecting the last image to also be predicted correctly, but maybe the noise in front in the bottom was enough to mislead the model
 
@@ -175,4 +175,3 @@ For the image of Speed limit (60km/h)  the top predictions were:
    Keep left  probability = 0.015
    
 As we can see in the first 4 cases the prediction was strongly leaning into the correct prediction with almost 100% of probably. The only case in which the probably is more distributed was in the incorrect classified image of Speed limit (60km/h) which ended up being the second place with .2 after the incorrect .586 given to Traffic signals
-
