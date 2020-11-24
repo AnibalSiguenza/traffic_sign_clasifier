@@ -144,34 +144,38 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 The code for making predictions on my final model is located in the Predict the Sign Type for Each Image section of the Ipython notebook.
 
 For the image of Stop  the top predictions were:
-   Stop  probability = 1.000
-   Priority road  probability = 0.000
-   Speed limit (80km/h)  probability = 0.000
-   No entry  probability = 0.000
-   Speed limit (60km/h)  probability = 0.000
+1. Stop  probability = 1.000
+2. Priority road  probability = 0.000
+3. Speed limit (80km/h)  probability = 0.000
+4. No entry  probability = 0.000
+5. Speed limit (60km/h)  probability = 0.000
+
 For the image of General caution  the top predictions were:
-   General caution  probability = 1.000
-   Traffic signals  probability = 0.000
-   Wild animals crossing  probability = 0.000
-   Road work  probability = 0.000
-   Double curve  probability = 0.000
+1. General caution  probability = 1.000
+2. Traffic signals  probability = 0.000
+3. Wild animals crossing  probability = 0.000
+4. Road work  probability = 0.000
+5. Double curve  probability = 0.000
+
 For the image of Wild animals crossing  the top predictions were:
-   Wild animals crossing  probability = 0.999
-   Slippery road  probability = 0.000
-   Double curve  probability = 0.000
-   Dangerous curve to the left  probability = 0.000
-   Dangerous curve to the right  probability = 0.000
+1. Wild animals crossing  probability = 0.999
+2. Slippery road  probability = 0.000
+3. Double curve  probability = 0.000
+4. Dangerous curve to the left  probability = 0.000
+5. Dangerous curve to the right  probability = 0.000
+
 For the image of Turn right ahead  the top predictions were:
-   Turn right ahead  probability = 1.000
-   Go straight or left  probability = 0.000
-   Keep left  probability = 0.000
-   No passing  probability = 0.000
-   Ahead only  probability = 0.000
+1. Turn right ahead  probability = 1.000
+2. Go straight or left  probability = 0.000
+3. Keep left  probability = 0.000
+4. No passing  probability = 0.000
+5. Ahead only  probability = 0.000
+
 For the image of Speed limit (60km/h)  the top predictions were:
-   Traffic signals  probability = 0.586
-   Speed limit (60km/h)  probability = 0.200
-   Dangerous curve to the left  probability = 0.098
-   General caution  probability = 0.081
-   Keep left  probability = 0.015
+1. Traffic signals  probability = 0.586
+2. Speed limit (60km/h)  probability = 0.200
+3. Dangerous curve to the left  probability = 0.098
+4. General caution  probability = 0.081
+5. Keep left  probability = 0.015
    
 As we can see in the first 4 cases the prediction was strongly leaning into the correct prediction with almost 100% of probably. The only case in which the probably is more distributed was in the incorrect classified image of Speed limit (60km/h) which ended up being the second place with .2 after the incorrect .586 given to Traffic signals
